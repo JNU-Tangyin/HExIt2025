@@ -60,6 +60,34 @@ Hex is easily representable using an MDP; there are clear notions of states (a b
 - **Interactive Analysis**: Added runtime distribution analysis functionality
 - **Documentation and Comments**: Comprehensive code documentation updates to improve maintainability
 
+## Policy Visualizations
+
+### Policy Distribution Samples
+
+<p align="center">
+  <img src="policy_visualizations/policy_sample_1.png" width="150" alt="Policy Sample 1">
+  <img src="policy_visualizations/policy_sample_2.png" width="150" alt="Policy Sample 2">
+  <img src="policy_visualizations/policy_sample_3.png" width="150" alt="Policy Sample 3">
+  <img src="policy_visualizations/policy_sample_4.png" width="150" alt="Policy Sample 4">
+  <img src="policy_visualizations/policy_sample_5.png" width="150" alt="Policy Sample 5">
+  <br>
+  <img src="policy_visualizations/policy_sample_6.png" width="150" alt="Policy Sample 6">
+  <img src="policy_visualizations/policy_sample_7.png" width="150" alt="Policy Sample 7">
+  <img src="policy_visualizations/policy_sample_8.png" width="150" alt="Policy Sample 8">
+  <img src="policy_visualizations/policy_sample_9.png" width="150" alt="Policy Sample 9">
+  <img src="policy_visualizations/policy_sample_10.png" width="150" alt="Policy Sample 10">
+  <br>
+  <em>Policy distribution heatmaps showing MCTS visit counts across different game states</em>
+</p>
+
+### Policy Statistics
+
+<p align="center">
+  <img src="policy_visualizations/policy_statistics.png" width="600" alt="Policy Statistics">
+  <br>
+  <em>Comprehensive statistics analyzing policy distributions across game progression</em>
+</p>
+
 ## Project Structure and Module Functionality
 
 This project follows modular, functional, and flat design principles with clear code organization and well-defined dependencies. The main files and their functions are as follows:
@@ -212,6 +240,8 @@ from src.mcts_distributions import apply_temperature, analyze_distribution
 dist = apply_temperature(distribution, temperature=0.5)  # Apply temperature parameter
 metrics = analyze_distribution(dist)  # Analyze distribution characteristics
 ```
+
+*See the Policy Visualizations section for examples of policy distributions and the effects of temperature parameter.*
 
 ## Results and Performance
 
