@@ -1,0 +1,46 @@
+[
+  {
+    "timestamp": "2025-05-06T11:00:40.192603",
+    "c_b": 1.0,
+    "temperature": 0.2,
+    "num_simulations": 500,
+    "iteration": 1,
+    "win_rate": 0.4,
+    "first_wins": 1,
+    "second_wins": 7,
+    "model_path": "models/hex/5/cb1.0_temp0.2_sim500_iter1"
+  },
+  {
+    "timestamp": "2025-05-06T11:05:07.397300",
+    "c_b": 1.0,
+    "temperature": 0.2,
+    "num_simulations": 500,
+    "iteration": 2,
+    "win_rate": 0.55,
+    "first_wins": 5,
+    "second_wins": 6,
+    "model_path": "models/hex/5/cb1.0_temp0.2_sim500_iter2"
+  },
+  {
+    "timestamp": "2025-05-06T11:09:43.902257",
+    "c_b": 1.0,
+    "temperature": 0.2,
+    "num_simulations": 500,
+    "iteration": 3,
+    "win_rate": 0.4,
+    "first_wins": 0,
+    "second_wins": 8,
+    "model_path": "models/hex/5/cb1.0_temp0.2_sim500_iter3"
+  },
+  {
+    "timestamp": "2025-05-06T11:18:26.671642",
+    "c_b": 1.0,
+    "temperature": 0.2,
+    "num_simulations": 1000,
+    "iteration": 1,
+    "win_rate": 0.6,
+    "first_wins": 4,
+    "second_wins": 8,
+    "model_path": "models/hex/5/cb1.0_temp0.2_sim1000_iter1"
+  }
+]

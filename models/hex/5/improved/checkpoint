@@ -1,0 +1,2 @@
+model_checkpoint_path: "improved_cb1.0_temp0.2_sim500_iter3"
+all_model_checkpoint_paths: "improved_cb1.0_temp0.2_sim500_iter3"

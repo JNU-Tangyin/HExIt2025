@@ -1,0 +1,44 @@
+[
+  {
+    "timestamp": "2025-05-06T12:00:56.270043",
+    "c_b": 1.0,
+    "temperature": 0.2,
+    "num_simulations": 500,
+    "iteration": 1,
+    "win_rate": 0.4,
+    "first_wins": 1,
+    "second_wins": 7,
+    "policy_loss": 0.054244864778593194,
+    "value_loss": 0.03761954807310498,
+    "total_loss": 0.07305463909371092,
+    "model_path": "models/hex/5/improved/improved_cb1.0_temp0.2_sim500_iter1"
+  },
+  {
+    "timestamp": "2025-05-06T12:09:29.976632",
+    "c_b": 1.0,
+    "temperature": 0.2,
+    "num_simulations": 500,
+    "iteration": 2,
+    "win_rate": 0.45,
+    "first_wins": 2,
+    "second_wins": 7,
+    "policy_loss": 0.009970248327590523,
+    "value_loss": 0.005527746182633564,
+    "total_loss": 0.01273412139687155,
+    "model_path": "models/hex/5/improved/improved_cb1.0_temp0.2_sim500_iter2"
+  },
+  {
+    "timestamp": "2025-05-06T12:18:01.322360",
+    "c_b": 1.0,
+    "temperature": 0.2,
+    "num_simulations": 500,
+    "iteration": 3,
+    "win_rate": 0.6,
+    "first_wins": 2,
+    "second_wins": 10,
+    "policy_loss": 0.00550976073635476,
+    "value_loss": 0.003090818204093791,
+    "total_loss": 0.0070551697963050445,
+    "model_path": "models/hex/5/improved/improved_cb1.0_temp0.2_sim500_iter3"
+  }
+]

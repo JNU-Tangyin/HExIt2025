@@ -1,0 +1,34 @@
+{
+  "c_b=0.50_sims=100": {
+    "c_b": 0.5,
+    "simulation_count": 100,
+    "wins": 1,
+    "games": 10,
+    "win_rate": 10.0,
+    "avg_game_time": 1.6571131467819213
+  },
+  "c_b=0.50_sims=500": {
+    "c_b": 0.5,
+    "simulation_count": 500,
+    "wins": 4,
+    "games": 10,
+    "win_rate": 40.0,
+    "avg_game_time": 5.601548504829407
+  },
+  "c_b=2.00_sims=100": {
+    "c_b": 2.0,
+    "simulation_count": 100,
+    "wins": 3,
+    "games": 10,
+    "win_rate": 30.0,
+    "avg_game_time": 3.8702736139297484
+  },
+  "c_b=2.00_sims=500": {
+    "c_b": 2.0,
+    "simulation_count": 500,
+    "wins": 5,
+    "games": 10,
+    "win_rate": 50.0,
+    "avg_game_time": 8.331247138977051
+  }
+}
